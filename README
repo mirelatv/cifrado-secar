@@ -1,0 +1,39 @@
+
+                               #pseudoicodigo
+
+funcion cipher
+  -Asigno variable q
+	-solicitamos q -cual es tu nombre
+	-Leer informacion de retorno info de usuario
+Repetir(WHILE)
+Contenido es vacio o numerico solicitamos al usuario ingresar datos validos
+Hasta Que si el contenido no esvacio
+	   - for; recorro los indices de  la variable
+	   - q/lo convierto en mayusculas
+
+      -creamos variable qM
+	    -qM<- q.toUpperCase
+	    -for recorro qM
+	Asiganamos nuevas variables :var str = "",var np( nueva posision) , var lc :letra cifrada
+	    //traslado a idioma Ascci
+	     np <- np(charcodeAt)ascci
+       // LLevando a nuestro alfabeto
+	     lc <- np(String.fromChardode)
+	     str <-  (+)lc
+	retornamos al usuario alert de nombre cifrado
+
+   function decipher(str)
+           creando var decipherWord="";
+   recorriendo str
+    asigando:   variables retroPosition /str.charCodeAt(h)+65-33)%26+65
+                variable  letterCesar/ String.fromCharCode(retroPosition);
+   decipherWord += letterCesar;
+
+
+   alerta al usuario de  su nombre  ( cifrado y decifrado)
+
+}
+
+decipher(cipher());
+
+https://subefotos.com/ver/?a6576d22b7daa77d5373e51069ea2754o.png#codigos
