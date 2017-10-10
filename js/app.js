@@ -21,8 +21,8 @@ function cipher() {
     for (var j = 0; j < questionMayus.length; j++) {
 
         var newPosition = (questionMayus.charCodeAt(j) - 65 + 33) % 26 + 65;
-        var letraCifrada = String.fromCharCode(newPosition);
-        str += letraCifrada;
+        var letterCifher = String.fromCharCode(newPosition);
+        str += letterCifher;
     }
     return str;
 }
@@ -37,8 +37,8 @@ function decipher(str) {
         decipherWord += letterCesar;
 
     }
-        alert("tu nombre cifrado es" +  str);
-        alert("tu nombre decifrado es" +  decipherWord);
+        alert("tu nombre cifrado es" + " "+ str);
+        alert("tu nombre decifrado es" +" "+  decipherWord);
 
 }
 
